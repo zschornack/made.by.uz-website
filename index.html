@@ -7,7 +7,9 @@
   <meta name="description" content="made.by.uz: agência de desenvolvimento web. Sites, lojas e sistemas sob medida.">
   <meta property="og:title" content="made.by.uz — Portfólio">
   <meta property="og:description" content="Agência de desenvolvimento web. Sites, lojas e sistemas sob medida.">
-  <link rel="icon" type="image/png" href="assets/img/logo-preto.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/img/favicon-64.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <meta name="theme-color" content="#f3f4f6">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&display=swap">
@@ -15,9 +17,10 @@
 </head>
 <body>
 <nav class="nav" id="nav" aria-label="Principal">
-  <a class="brand" href="#top"><img class="logo-nav" src="assets/img/logo-preto.png" alt="made.by.uz" width="90" height="18"></a>
+  <a class="brand" href="#top"><img class="logo-nav" src="assets/img/logo-preto-hd.png" alt="made.by.uz" width="90" height="18"></a>
   <div class="links">
     <a href="#projetos">Projetos</a>
+    <a href="#servicos">Serviços</a>
     <a href="#sobre">Sobre</a>
     <a class="cta" href="#contato">Contato</a>
   </div>
@@ -29,8 +32,8 @@
     <div class="wrap hero">
       <div class="hero-l">
         <span class="pill"><span class="ping"></span>Brasil · aceitando projetos</span>
-        <h1 class="two-tone"><img class="logo-hero" src="assets/img/logo-preto.png" alt="made.by.uz" width="1445" height="288"></h1>
-        <p><strong>Transformamos ideias bagunçadas em sites simples.</strong> Agência de desenvolvimento web para negócios que querem um site rápido, bonito e que vende.</p>
+        <h1 class="hero-h"><span class="neg">Vamos</span> <span class="rot" aria-live="polite"><span class="on">lançar</span><span>construir</span><span>criar</span><span>desenhar</span></span><span class="neg b">algo incrível juntos.</span></h1>
+        <p class="neg"><strong>Transformamos ideias bagunçadas em sites simples.</strong> Agência de desenvolvimento web para negócios que querem um site rápido, bonito e que vende.</p>
         <div class="hero-cta">
           <a class="btn dark" href="https://wa.me/5547996595120?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20de%20site." target="_blank" rel="noopener">
             <span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg></span>
@@ -46,18 +49,18 @@
     </div>
 
     <section class="wrap projects" id="projetos">
-      <h2>Projetos recentes</h2>
+      <h2 class="neg">Projetos recentes</h2>
       <div class="slots">
         <div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div>
       </div>
       <div class="more"><a href="#projetos">Ver mais projetos ↗</a></div>
     </section>
 
-    <!-- Cada card = um site que vocês fizeram. Troque nome, categoria, link e a imagem (.shot). -->
-    <a class="card" href="https://www.englishbookclub.com.br" target="_blank" rel="noopener"><img class="shot" src="assets/img/projetos/english-book-club.jpg" alt="Landing page do English Book Club com captação de leads" width="800" height="556"><span class="tag">Landing page · Leads</span><div class="foot"><h3>English Book Club</h3><span>↗ Ver site</span></div></a>
-    <a class="card" href="https://lvadvocacia.com.br/" target="_blank" rel="noopener"><img class="shot" src="assets/img/projetos/lang-vaz.jpg" alt="Landing page do escritório Lang &amp; Vaz Advocacia" width="800" height="556"><span class="tag">Landing page · Advocacia</span><div class="foot"><h3>Lang &amp; Vaz Advocacia</h3><span>↗ Ver site</span></div></a>
-    <a class="card" href="https://www.talkboxschool.com/" target="_blank" rel="noopener"><img class="shot" src="assets/img/projetos/talkbox.jpg" alt="Site da escola de inglês TalkBox" width="800" height="556"><span class="tag">Site · Escola de inglês</span><div class="foot"><h3>TalkBox</h3><span>↗ Ver site</span></div></a>
-    <a class="card" href="https://fisiomilenepaz-fisiomilenewebsite.vercel.app" target="_blank" rel="noopener"><img class="shot" src="assets/img/projetos/milene-paz.jpg" alt="Site da fisioterapeuta Milene Paz" width="800" height="556"><span class="tag">Site · Fisioterapia</span><div class="foot"><h3>Milene Paz</h3><span>↗ Ver site</span></div></a>
+    <!-- Cada card = um site. data-src do botão "Navegar aqui" carrega o site real dentro do card. -->
+    <div class="card" style="--c:#1d3170"><span class="tag">Landing page · Leads</span><div class="frame"><div class="bar"><i></i><i></i><i></i><span>englishbookclub.com.br</span></div><div class="view"><img class="shot" src="assets/img/projetos/english-book-club-hd.jpg" alt="Página inicial do site English Book Club" width="1348" height="645" loading="lazy"></div></div><div class="foot"><h3>English Book Club</h3><div class="acts"><button class="explore" type="button" data-src="https://www.englishbookclub.com.br/">Navegar aqui</button><a class="open" href="https://www.englishbookclub.com.br/" target="_blank" rel="noopener">Abrir ↗</a></div></div></div>
+    <div class="card" style="--c:#0f2740"><span class="tag">Landing page · Advocacia</span><div class="frame"><div class="bar"><i></i><i></i><i></i><span>lvadvocacia.com.br</span></div><div class="view"><img class="shot" src="assets/img/projetos/lang-vaz-hd.jpg" alt="Página inicial do site Lang &amp; Vaz Advocacia" width="1348" height="645" loading="lazy"></div></div><div class="foot"><h3>Lang &amp; Vaz Advocacia</h3><div class="acts"><button class="explore" type="button" data-src="https://lvadvocacia.com.br/">Navegar aqui</button><a class="open" href="https://lvadvocacia.com.br/" target="_blank" rel="noopener">Abrir ↗</a></div></div></div>
+    <div class="card" style="--c:#04463a"><span class="tag">Site · Escola de inglês</span><div class="frame"><div class="bar"><i></i><i></i><i></i><span>talkboxschool.com</span></div><div class="view"><img class="shot" src="assets/img/projetos/talkbox-hd.jpg" alt="Página inicial do site TalkBox" width="1348" height="645" loading="lazy"></div></div><div class="foot"><h3>TalkBox</h3><div class="acts"><button class="explore" type="button" data-src="https://www.talkboxschool.com/">Navegar aqui</button><a class="open" href="https://www.talkboxschool.com/" target="_blank" rel="noopener">Abrir ↗</a></div></div></div>
+    <div class="card" style="--c:#5b1520"><span class="tag">Site · Fisioterapia</span><div class="frame"><div class="bar"><i></i><i></i><i></i><span>fisiomilenepaz.vercel.app</span></div><div class="view"><img class="shot" src="assets/img/projetos/milene-paz-hd.jpg" alt="Página inicial do site Milene Paz" width="1348" height="645" loading="lazy"></div></div><div class="foot"><h3>Milene Paz</h3><div class="acts"><button class="explore" type="button" data-src="https://fisiomilenepaz-fisiomilenewebsite.vercel.app/">Navegar aqui</button><a class="open" href="https://fisiomilenepaz-fisiomilenewebsite.vercel.app/" target="_blank" rel="noopener">Abrir ↗</a></div></div></div>
   </div>
 
   <section class="wrap block about" id="sobre">
@@ -77,38 +80,42 @@
     </div>
   </section>
 
-  <section class="wrap block toolkit" id="stack-tec">
-    <div class="tk-grid">
-      <div class="tk-left">
-        <h2 class="two-tone">Caixa de<span class="b">ferramentas</span></h2>
-        <div class="lbl">Nossa stack</div>
-        <div class="tiles">
-          <div class="tile"><div class="sq">Re</div><small>React</small></div>
-          <div class="tile"><div class="sq">N</div><small>Next.js</small></div>
-          <div class="tile"><div class="sq">TS</div><small>TypeScript</small></div>
-          <div class="tile"><div class="sq">Tw</div><small>Tailwind</small></div>
-          <div class="tile"><div class="sq">Nd</div><small>Node</small></div>
-          <div class="tile"><div class="sq">Fg</div><small>Figma</small></div>
-          <div class="tile"><div class="sq">Wp</div><small>WordPress</small></div>
-          <div class="tile"><div class="sq">Sh</div><small>Shopify</small></div>
-          <div class="tile"><div class="sq">Pg</div><small>Postgres</small></div>
-          <div class="tile"><div class="sq">Mo</div><small>Motion</small></div>
-        </div>
-      </div>
-      <ul class="services">
-        <li><span class="dot">01</span>Sites institucionais</li>
-        <li><span class="dot">02</span>Lojas virtuais</li>
-        <li><span class="dot">03</span>Landing pages</li>
-        <li><span class="dot">04</span>Sistemas sob medida</li>
-        <li><span class="dot">05</span>UI/UX Design</li>
-        <li><span class="dot">06</span>SEO e performance</li>
-      </ul>
+  <section class="wrap block produtos" id="servicos">
+    <div class="prod-head">
+      <h2 class="two-tone">O que a gente faz<span class="b">Se é na web, a gente faz.</span></h2>
+      <p>Clique no que você precisa e já chama a gente no WhatsApp com o pedido pronto.</p>
+    </div>
+    <div class="prods">
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20site%20institucional." target="_blank" rel="noopener"><b>Site institucional</b><span>A cara da sua empresa na internet</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20landing%20page." target="_blank" rel="noopener"><b>Landing page</b><span>Uma página focada em vender uma coisa só</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20p%C3%A1gina%20de%20captura." target="_blank" rel="noopener"><b>Página de captura</b><span>Lista de espera, e-book e pré-lançamento</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20p%C3%A1gina%20de%20vendas." target="_blank" rel="noopener"><b>Página de vendas</b><span>Infoprodutos, mentorias e cursos</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20loja%20virtual." target="_blank" rel="noopener"><b>Loja virtual</b><span>Carrinho, frete e pagamento online</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20cat%C3%A1logo%20online." target="_blank" rel="noopener"><b>Catálogo online</b><span>Seus produtos com pedido pelo WhatsApp</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20card%C3%A1pio%20digital." target="_blank" rel="noopener"><b>Cardápio digital</b><span>Restaurantes, bares, cafés e delivery</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20site%20para%20cl%C3%ADnicas." target="_blank" rel="noopener"><b>Site para clínicas</b><span>Médicos, dentistas, fisios e psicólogos</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20site%20para%20escrit%C3%B3rios." target="_blank" rel="noopener"><b>Site para escritórios</b><span>Advocacia, contabilidade e consultoria</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20site%20para%20escolas." target="_blank" rel="noopener"><b>Site para escolas</b><span>Cursos, idiomas e aula experimental</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20site%20imobili%C3%A1rio." target="_blank" rel="noopener"><b>Site imobiliário</b><span>Imóveis com fotos, filtros e contato</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20portf%C3%B3lio." target="_blank" rel="noopener"><b>Portfólio</b><span>Fotógrafos, arquitetos e criativos</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20blog." target="_blank" rel="noopener"><b>Blog</b><span>Conteúdo para aparecer no Google</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20link%20na%20bio." target="_blank" rel="noopener"><b>Link na bio</b><span>Todos os seus links numa página sua</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20p%C3%A1gina%20de%20evento." target="_blank" rel="noopener"><b>Página de evento</b><span>Casamentos, festas, congressos e inscrições</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20%C3%A1rea%20de%20membros." target="_blank" rel="noopener"><b>Área de membros</b><span>Cursos e conteúdos com login</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20sistema%20de%20agendamento." target="_blank" rel="noopener"><b>Sistema de agendamento</b><span>Seu cliente marca o horário sozinho</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20painel%20administrativo." target="_blank" rel="noopener"><b>Painel administrativo</b><span>Pedidos, clientes e estoque num lugar</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20sistema%20sob%20medida." target="_blank" rel="noopener"><b>Sistema sob medida</b><span>A ferramenta que só a sua empresa precisa</span><i aria-hidden="true">↗</i></a>
+          <a class="prod" href="https://wa.me/5547996595120?text=Ol%C3%A1%21%20Quero%20um%20or%C3%A7amento%20de%20redesign%20de%20site." target="_blank" rel="noopener"><b>Redesign de site</b><span>Seu site antigo, novo de novo</span><i aria-hidden="true">↗</i></a>
+    </div>
+    <div class="prod-cta">
+      <span>Não achou o seu? A gente faz também.</span>
+      <a class="btn dark" href="https://wa.me/5547996595120?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento%20de%20site." target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.2-.4.2-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4c1.7.7 2.3.8 3.2.7.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg></span>Contar meu projeto</a>
     </div>
   </section>
 
   <section class="wrap" id="contato">
     <div class="cta-card">
-      <div class="who"><span class="av">uz</span><div><b>made.by.uz</b><small>Desenvolvimento web</small></div></div>
+      <div class="who"><img class="av" src="assets/img/favicon-64.png" alt="" width="40" height="40"><div><b>made.by.uz</b><small>Desenvolvimento web</small></div></div>
       <h3>Tem um projeto em mente?<span class="b">Bora conversar.</span></h3>
       <p>Sites rápidos, bonitos e fáceis de atualizar. Conta pra gente o que você precisa e mandamos um orçamento.</p>
       <div class="cta-row">
@@ -128,7 +135,7 @@
 
 <footer>
   <div class="wrap">
-    <h2 class="ft-h">Vamos <span class="rot" aria-live="polite"><span class="on">construir</span><span>criar</span><span>desenhar</span><span>lançar</span></span><span class="b">algo incrível juntos.</span></h2>
+    <h2 class="ft-h">Bora tirar sua ideia<span class="b">do papel?</span></h2>
     <div class="ft-info">
       <dl>
         <div><dt>E-mail</dt><dd>contato@madebyuz.com</dd></div>
@@ -138,9 +145,9 @@
         <div class="ft-soc"><a href="#top" aria-label="Instagram">IG</a><a href="#top" aria-label="LinkedIn">in</a><a href="#top" aria-label="GitHub">GH</a><a href="#top" aria-label="Behance">Be</a></div>
       </div>
     </div>
-    <nav class="ft-nav"><a href="#top">Início</a><a href="#projetos">Projetos</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></nav>
+    <nav class="ft-nav"><a href="#top">Início</a><a href="#projetos">Projetos</a><a href="#servicos">Serviços</a><a href="#sobre">Sobre</a><a href="#contato">Contato</a></nav>
     <div class="ft-base"><span>Baseados no Brasil</span><span>© 2026 made.by.uz</span></div>
-    <div class="giant" aria-hidden="true"><img src="assets/img/logo-branco.png" alt="" width="1445" height="288"></div>
+    <div class="giant" aria-hidden="true"><img src="assets/img/logo-branco-hd.png" alt="" width="2890" height="576"></div>
   </div>
 </footer>
 
